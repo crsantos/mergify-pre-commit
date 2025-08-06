@@ -1,0 +1,10 @@
+-   id: mergify
+    name: Validate Mergify Config
+    description: Validate Mergify configuration files against the official schema
+    entry: mergify
+    language: python
+    files: '\.mergify.*\.ya?ml$'
+    types: [text]
+    additional_dependencies: []
+    pass_filenames: true
+    require_serial: false
